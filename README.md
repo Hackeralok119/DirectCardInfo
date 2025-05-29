@@ -20,12 +20,34 @@ This tool allows you to:
 * Illustrates immediate script output.
 * Optional bot integration for data delivery demonstration.
 
-## Getting Started
+## Installation and Running (Conceptual for Educational Use)
 
-1.  Clone this repository.
-2.  Navigate to the project directory.
-3.  Run the provided script (e.g., using Python: `python your_script.py`).
-4.  Observe the output in your terminal.
+These are example commands you might use in a Linux-based environment like Termux or Kali. **Please be cautious when granting storage access.**
+
+1.  **Grant Storage Access (Termux):**
+    ```bash
+    termux-setup-storage
+    ```
+
+2.  **Update and Upgrade System:**
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+
+3.  **Install Python (if not already installed):**
+    ```bash
+    sudo apt install python3 -y
+    ```
+
+4.  **Navigate to the Project Directory:**
+    ```bash
+    cd DirectCardInfo
+    ```
+
+5.  **Run the Script (`CCSHOP.py`):**
+    ```bash
+    python3 CCSHOP.py
+    ```
 
 ## Contact the Owner
 
